@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Rogan-LT\\Desktop\\webShopProjekat\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8BDA2F81-A5EE-4D0D-9573-2D2DDAD0F8D4}|WebShopProject.API\\WebShopProject.API.csproj|c:\\users\\rogan-lt\\desktop\\webshopprojekat\\webshopproject.api\\webshopproject.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8BDA2F81-A5EE-4D0D-9573-2D2DDAD0F8D4}|WebShopProject.API\\WebShopProject.API.csproj|solutionrelative:webshopproject.api\\webshopproject.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WebShopProject.API",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\webShopProjekat\\WebShopProject.API\\WebShopProject.API.csproj",
+              "RelativeDocumentMoniker": "WebShopProject.API\\WebShopProject.API.csproj",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\webShopProjekat\\WebShopProject.API\\WebShopProject.API.csproj",
+              "RelativeToolTip": "WebShopProject.API\\WebShopProject.API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-13T09:30:44.98Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
