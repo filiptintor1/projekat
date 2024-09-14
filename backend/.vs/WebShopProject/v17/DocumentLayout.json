@@ -3,28 +3,116 @@
   "WorkspaceRootPath": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FA145D9F-1C5B-4AAF-B090-3990C469C62A}|WebShopProject.Application\\WebShopProject.Application.csproj|c:\\users\\rogan-lt\\desktop\\projekat\\webshopproject\\backend\\webshopproject.application\\products\\queries\\getproductsbygender\\getproductsbygenderqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA145D9F-1C5B-4AAF-B090-3990C469C62A}|WebShopProject.Application\\WebShopProject.Application.csproj|solutionrelative:webshopproject.application\\products\\queries\\getproductsbygender\\getproductsbygenderqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA145D9F-1C5B-4AAF-B090-3990C469C62A}|WebShopProject.Application\\WebShopProject.Application.csproj|c:\\users\\rogan-lt\\desktop\\projekat\\webshopproject\\backend\\webshopproject.application\\products\\queries\\getproductsbycategory\\getproductsbycategoryqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA145D9F-1C5B-4AAF-B090-3990C469C62A}|WebShopProject.Application\\WebShopProject.Application.csproj|solutionrelative:webshopproject.application\\products\\queries\\getproductsbycategory\\getproductsbycategoryqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA145D9F-1C5B-4AAF-B090-3990C469C62A}|WebShopProject.Application\\WebShopProject.Application.csproj|c:\\users\\rogan-lt\\desktop\\projekat\\webshopproject\\backend\\webshopproject.application\\products\\queries\\getproductbyid\\getproductbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA145D9F-1C5B-4AAF-B090-3990C469C62A}|WebShopProject.Application\\WebShopProject.Application.csproj|solutionrelative:webshopproject.application\\products\\queries\\getproductbyid\\getproductbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA145D9F-1C5B-4AAF-B090-3990C469C62A}|WebShopProject.Application\\WebShopProject.Application.csproj|c:\\users\\rogan-lt\\desktop\\projekat\\webshopproject\\backend\\webshopproject.application\\products\\queries\\getproductbyid\\getproductbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA145D9F-1C5B-4AAF-B090-3990C469C62A}|WebShopProject.Application\\WebShopProject.Application.csproj|solutionrelative:webshopproject.application\\products\\queries\\getproductbyid\\getproductbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA5D7F4-1411-40D8-A4FE-B4CF815C5FDC}|WebShopProject.Domain\\WebShopProject.Domain.csproj|c:\\users\\rogan-lt\\desktop\\projekat\\webshopproject\\backend\\webshopproject.domain\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA5D7F4-1411-40D8-A4FE-B4CF815C5FDC}|WebShopProject.Domain\\WebShopProject.Domain.csproj|solutionrelative:webshopproject.domain\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8BDA2F81-A5EE-4D0D-9573-2D2DDAD0F8D4}|WebShopProject.API\\WebShopProject.API.csproj|c:\\users\\rogan-lt\\desktop\\projekat\\webshopproject\\backend\\webshopproject.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8BDA2F81-A5EE-4D0D-9573-2D2DDAD0F8D4}|WebShopProject.API\\WebShopProject.API.csproj|solutionrelative:webshopproject.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AEFCBA25-23A3-4CDA-AD84-E6AF0FB1CA3A}|WebShopProject.Infrastructure\\WebShopProject.Infrastructure.csproj|c:\\users\\rogan-lt\\desktop\\projekat\\webshopproject\\backend\\webshopproject.infrastructure\\extension\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AEFCBA25-23A3-4CDA-AD84-E6AF0FB1CA3A}|WebShopProject.Infrastructure\\WebShopProject.Infrastructure.csproj|solutionrelative:webshopproject.infrastructure\\extension\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8BDA2F81-A5EE-4D0D-9573-2D2DDAD0F8D4}|WebShopProject.API\\WebShopProject.API.csproj|c:\\users\\rogan-lt\\desktop\\projekat\\webshopproject\\backend\\webshopproject.api\\errorhandling\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BDA2F81-A5EE-4D0D-9573-2D2DDAD0F8D4}|WebShopProject.API\\WebShopProject.API.csproj|solutionrelative:webshopproject.api\\errorhandling\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AEFCBA25-23A3-4CDA-AD84-E6AF0FB1CA3A}|WebShopProject.Infrastructure\\WebShopProject.Infrastructure.csproj|c:\\users\\rogan-lt\\desktop\\projekat\\webshopproject\\backend\\webshopproject.infrastructure\\dataseeder\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AEFCBA25-23A3-4CDA-AD84-E6AF0FB1CA3A}|WebShopProject.Infrastructure\\WebShopProject.Infrastructure.csproj|solutionrelative:webshopproject.infrastructure\\dataseeder\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8BDA2F81-A5EE-4D0D-9573-2D2DDAD0F8D4}|WebShopProject.API\\WebShopProject.API.csproj|c:\\users\\rogan-lt\\desktop\\projekat\\webshopproject\\backend\\webshopproject.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BDA2F81-A5EE-4D0D-9573-2D2DDAD0F8D4}|WebShopProject.API\\WebShopProject.API.csproj|solutionrelative:webshopproject.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA145D9F-1C5B-4AAF-B090-3990C469C62A}|WebShopProject.Application\\WebShopProject.Application.csproj|c:\\users\\rogan-lt\\desktop\\projekat\\webshopproject\\backend\\webshopproject.application\\products\\commands\\updateproduct\\updateproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA145D9F-1C5B-4AAF-B090-3990C469C62A}|WebShopProject.Application\\WebShopProject.Application.csproj|solutionrelative:webshopproject.application\\products\\commands\\updateproduct\\updateproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA145D9F-1C5B-4AAF-B090-3990C469C62A}|WebShopProject.Application\\WebShopProject.Application.csproj|c:\\users\\rogan-lt\\desktop\\projekat\\webshopproject\\backend\\webshopproject.application\\products\\commands\\updateproduct\\updateproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA145D9F-1C5B-4AAF-B090-3990C469C62A}|WebShopProject.Application\\WebShopProject.Application.csproj|solutionrelative:webshopproject.application\\products\\commands\\updateproduct\\updateproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5EA5D7F4-1411-40D8-A4FE-B4CF815C5FDC}|WebShopProject.Domain\\WebShopProject.Domain.csproj|c:\\users\\rogan-lt\\desktop\\projekat\\webshopproject\\backend\\webshopproject.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5EA5D7F4-1411-40D8-A4FE-B4CF815C5FDC}|WebShopProject.Domain\\WebShopProject.Domain.csproj|solutionrelative:webshopproject.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AEFCBA25-23A3-4CDA-AD84-E6AF0FB1CA3A}|WebShopProject.Infrastructure\\WebShopProject.Infrastructure.csproj|c:\\users\\rogan-lt\\desktop\\projekat\\webshopproject\\backend\\webshopproject.infrastructure\\database\\projectdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AEFCBA25-23A3-4CDA-AD84-E6AF0FB1CA3A}|WebShopProject.Infrastructure\\WebShopProject.Infrastructure.csproj|solutionrelative:webshopproject.infrastructure\\database\\projectdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA145D9F-1C5B-4AAF-B090-3990C469C62A}|WebShopProject.Application\\WebShopProject.Application.csproj|c:\\users\\rogan-lt\\desktop\\projekat\\webshopproject\\backend\\webshopproject.application\\products\\commands\\deleteproduct\\deleteproductqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA145D9F-1C5B-4AAF-B090-3990C469C62A}|WebShopProject.Application\\WebShopProject.Application.csproj|solutionrelative:webshopproject.application\\products\\commands\\deleteproduct\\deleteproductqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA145D9F-1C5B-4AAF-B090-3990C469C62A}|WebShopProject.Application\\WebShopProject.Application.csproj|c:\\users\\rogan-lt\\desktop\\projekat\\webshopproject\\backend\\webshopproject.application\\products\\commands\\deleteproduct\\deleteproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA145D9F-1C5B-4AAF-B090-3990C469C62A}|WebShopProject.Application\\WebShopProject.Application.csproj|solutionrelative:webshopproject.application\\products\\commands\\deleteproduct\\deleteproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA145D9F-1C5B-4AAF-B090-3990C469C62A}|WebShopProject.Application\\WebShopProject.Application.csproj|c:\\users\\rogan-lt\\desktop\\projekat\\webshopproject\\backend\\webshopproject.application\\products\\commands\\createproduct\\createproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA145D9F-1C5B-4AAF-B090-3990C469C62A}|WebShopProject.Application\\WebShopProject.Application.csproj|solutionrelative:webshopproject.application\\products\\commands\\createproduct\\createproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA145D9F-1C5B-4AAF-B090-3990C469C62A}|WebShopProject.Application\\WebShopProject.Application.csproj|c:\\users\\rogan-lt\\desktop\\projekat\\webshopproject\\backend\\webshopproject.application\\products\\commands\\createproduct\\createproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA145D9F-1C5B-4AAF-B090-3990C469C62A}|WebShopProject.Application\\WebShopProject.Application.csproj|solutionrelative:webshopproject.application\\products\\commands\\createproduct\\createproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA145D9F-1C5B-4AAF-B090-3990C469C62A}|WebShopProject.Application\\WebShopProject.Application.csproj|c:\\users\\rogan-lt\\desktop\\projekat\\webshopproject\\backend\\webshopproject.application\\products\\queries\\getallproducts\\getallproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA145D9F-1C5B-4AAF-B090-3990C469C62A}|WebShopProject.Application\\WebShopProject.Application.csproj|solutionrelative:webshopproject.application\\products\\queries\\getallproducts\\getallproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA145D9F-1C5B-4AAF-B090-3990C469C62A}|WebShopProject.Application\\WebShopProject.Application.csproj|c:\\users\\rogan-lt\\desktop\\projekat\\webshopproject\\backend\\webshopproject.application\\products\\queries\\getallproducts\\getallproductsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA145D9F-1C5B-4AAF-B090-3990C469C62A}|WebShopProject.Application\\WebShopProject.Application.csproj|solutionrelative:webshopproject.application\\products\\queries\\getallproducts\\getallproductsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA145D9F-1C5B-4AAF-B090-3990C469C62A}|WebShopProject.Application\\WebShopProject.Application.csproj|c:\\users\\rogan-lt\\desktop\\projekat\\webshopproject\\backend\\webshopproject.application\\products\\queries\\getproductsbycategory\\getproductsbycategoryquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA145D9F-1C5B-4AAF-B090-3990C469C62A}|WebShopProject.Application\\WebShopProject.Application.csproj|solutionrelative:webshopproject.application\\products\\queries\\getproductsbycategory\\getproductsbycategoryquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA145D9F-1C5B-4AAF-B090-3990C469C62A}|WebShopProject.Application\\WebShopProject.Application.csproj|c:\\users\\rogan-lt\\desktop\\projekat\\webshopproject\\backend\\webshopproject.application\\products\\queries\\getproductsbygender\\getproductsbygenderquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA145D9F-1C5B-4AAF-B090-3990C469C62A}|WebShopProject.Application\\WebShopProject.Application.csproj|solutionrelative:webshopproject.application\\products\\queries\\getproductsbygender\\getproductsbygenderquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEFCBA25-23A3-4CDA-AD84-E6AF0FB1CA3A}|WebShopProject.Infrastructure\\WebShopProject.Infrastructure.csproj|c:\\users\\rogan-lt\\desktop\\projekat\\webshopproject\\backend\\webshopproject.infrastructure\\repositories\\productsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEFCBA25-23A3-4CDA-AD84-E6AF0FB1CA3A}|WebShopProject.Infrastructure\\WebShopProject.Infrastructure.csproj|solutionrelative:webshopproject.infrastructure\\repositories\\productsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA5D7F4-1411-40D8-A4FE-B4CF815C5FDC}|WebShopProject.Domain\\WebShopProject.Domain.csproj|c:\\users\\rogan-lt\\desktop\\projekat\\webshopproject\\backend\\webshopproject.domain\\repositories\\iproductsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA5D7F4-1411-40D8-A4FE-B4CF815C5FDC}|WebShopProject.Domain\\WebShopProject.Domain.csproj|solutionrelative:webshopproject.domain\\repositories\\iproductsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEFCBA25-23A3-4CDA-AD84-E6AF0FB1CA3A}|WebShopProject.Infrastructure\\WebShopProject.Infrastructure.csproj|c:\\users\\rogan-lt\\desktop\\projekat\\webshopproject\\backend\\webshopproject.infrastructure\\extension\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEFCBA25-23A3-4CDA-AD84-E6AF0FB1CA3A}|WebShopProject.Infrastructure\\WebShopProject.Infrastructure.csproj|solutionrelative:webshopproject.infrastructure\\extension\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA145D9F-1C5B-4AAF-B090-3990C469C62A}|WebShopProject.Application\\WebShopProject.Application.csproj|c:\\users\\rogan-lt\\desktop\\projekat\\webshopproject\\backend\\webshopproject.application\\products\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA145D9F-1C5B-4AAF-B090-3990C469C62A}|WebShopProject.Application\\WebShopProject.Application.csproj|solutionrelative:webshopproject.application\\products\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA145D9F-1C5B-4AAF-B090-3990C469C62A}|WebShopProject.Application\\WebShopProject.Application.csproj|c:\\users\\rogan-lt\\desktop\\projekat\\webshopproject\\backend\\webshopproject.application\\products\\dto\\productprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA145D9F-1C5B-4AAF-B090-3990C469C62A}|WebShopProject.Application\\WebShopProject.Application.csproj|solutionrelative:webshopproject.application\\products\\dto\\productprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA145D9F-1C5B-4AAF-B090-3990C469C62A}|WebShopProject.Application\\WebShopProject.Application.csproj|c:\\users\\rogan-lt\\desktop\\projekat\\webshopproject\\backend\\webshopproject.application\\extensions\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA145D9F-1C5B-4AAF-B090-3990C469C62A}|WebShopProject.Application\\WebShopProject.Application.csproj|solutionrelative:webshopproject.application\\extensions\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8BDA2F81-A5EE-4D0D-9573-2D2DDAD0F8D4}|WebShopProject.API\\WebShopProject.API.csproj|c:\\users\\rogan-lt\\desktop\\projekat\\webshopproject\\backend\\webshopproject.api\\webshopproject.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{8BDA2F81-A5EE-4D0D-9573-2D2DDAD0F8D4}|WebShopProject.API\\WebShopProject.API.csproj|solutionrelative:webshopproject.api\\webshopproject.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEFCBA25-23A3-4CDA-AD84-E6AF0FB1CA3A}|WebShopProject.Infrastructure\\WebShopProject.Infrastructure.csproj|c:\\users\\rogan-lt\\desktop\\projekat\\webshopproject\\backend\\webshopproject.infrastructure\\dataseeder\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEFCBA25-23A3-4CDA-AD84-E6AF0FB1CA3A}|WebShopProject.Infrastructure\\WebShopProject.Infrastructure.csproj|solutionrelative:webshopproject.infrastructure\\dataseeder\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEFCBA25-23A3-4CDA-AD84-E6AF0FB1CA3A}|WebShopProject.Infrastructure\\WebShopProject.Infrastructure.csproj|c:\\users\\rogan-lt\\desktop\\projekat\\webshopproject\\backend\\webshopproject.infrastructure\\database\\projectdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEFCBA25-23A3-4CDA-AD84-E6AF0FB1CA3A}|WebShopProject.Infrastructure\\WebShopProject.Infrastructure.csproj|solutionrelative:webshopproject.infrastructure\\database\\projectdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AEFCBA25-23A3-4CDA-AD84-E6AF0FB1CA3A}|WebShopProject.Infrastructure\\WebShopProject.Infrastructure.csproj|c:\\users\\rogan-lt\\desktop\\projekat\\webshopproject\\backend\\webshopproject.infrastructure\\webshopproject.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -58,115 +146,128 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DataSeeder.cs",
-              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Infrastructure\\DataSeeder\\DataSeeder.cs",
-              "RelativeDocumentMoniker": "WebShopProject.Infrastructure\\DataSeeder\\DataSeeder.cs",
-              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Infrastructure\\DataSeeder\\DataSeeder.cs",
-              "RelativeToolTip": "WebShopProject.Infrastructure\\DataSeeder\\DataSeeder.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T11:06:21.486Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.API\\Program.cs",
-              "RelativeDocumentMoniker": "WebShopProject.API\\Program.cs",
-              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.API\\Program.cs",
-              "RelativeToolTip": "WebShopProject.API\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T09:36:27.955Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ServiceCollectionExtension.cs",
-              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Infrastructure\\Extension\\ServiceCollectionExtension.cs",
-              "RelativeDocumentMoniker": "WebShopProject.Infrastructure\\Extension\\ServiceCollectionExtension.cs",
-              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Infrastructure\\Extension\\ServiceCollectionExtension.cs",
-              "RelativeToolTip": "WebShopProject.Infrastructure\\Extension\\ServiceCollectionExtension.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABoAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T09:34:23.002Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ProjectDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Infrastructure\\Database\\ProjectDbContext.cs",
-              "RelativeDocumentMoniker": "WebShopProject.Infrastructure\\Database\\ProjectDbContext.cs",
-              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Infrastructure\\Database\\ProjectDbContext.cs",
-              "RelativeToolTip": "WebShopProject.Infrastructure\\Database\\ProjectDbContext.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAACoAAAAWAAAA",
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Domain\\Exceptions\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "WebShopProject.Domain\\Exceptions\\NotFoundException.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Domain\\Exceptions\\NotFoundException.cs",
+              "RelativeToolTip": "WebShopProject.Domain\\Exceptions\\NotFoundException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T08:40:08.024Z",
+              "WhenOpened": "2024-09-14T18:59:04.602Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "WebShopProject.Infrastructure",
-              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Infrastructure\\WebShopProject.Infrastructure.csproj",
-              "RelativeDocumentMoniker": "WebShopProject.Infrastructure\\WebShopProject.Infrastructure.csproj",
-              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Infrastructure\\WebShopProject.Infrastructure.csproj",
-              "RelativeToolTip": "WebShopProject.Infrastructure\\WebShopProject.Infrastructure.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-14T08:37:33.974Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Address.cs",
-              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Domain\\Entities\\Address.cs",
-              "RelativeDocumentMoniker": "WebShopProject.Domain\\Entities\\Address.cs",
-              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Domain\\Entities\\Address.cs",
-              "RelativeToolTip": "WebShopProject.Domain\\Entities\\Address.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Title": "ErrorHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.API\\ErrorHandling\\ErrorHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "WebShopProject.API\\ErrorHandling\\ErrorHandlingMiddleware.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.API\\ErrorHandling\\ErrorHandlingMiddleware.cs",
+              "RelativeToolTip": "WebShopProject.API\\ErrorHandling\\ErrorHandlingMiddleware.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T12:44:36.43Z",
+              "WhenOpened": "2024-09-14T18:53:18.505Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Domain\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "WebShopProject.Domain\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Domain\\Entities\\User.cs",
-              "RelativeToolTip": "WebShopProject.Domain\\Entities\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAsAAAA",
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.API\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "WebShopProject.API\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.API\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "WebShopProject.API\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAQwCcAAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T12:42:19.082Z",
+              "WhenOpened": "2024-09-14T17:05:25.591Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Admin.cs",
-              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Domain\\Entities\\Admin.cs",
-              "RelativeDocumentMoniker": "WebShopProject.Domain\\Entities\\Admin.cs",
-              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Domain\\Entities\\Admin.cs",
-              "RelativeToolTip": "WebShopProject.Domain\\Entities\\Admin.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA3AAAA",
+              "DocumentIndex": 2,
+              "Title": "GetProductByIdQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Application\\Products\\Queries\\GetProductById\\GetProductByIdQuery.cs",
+              "RelativeDocumentMoniker": "WebShopProject.Application\\Products\\Queries\\GetProductById\\GetProductByIdQuery.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Application\\Products\\Queries\\GetProductById\\GetProductByIdQuery.cs",
+              "RelativeToolTip": "WebShopProject.Application\\Products\\Queries\\GetProductById\\GetProductByIdQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T12:40:11.953Z",
+              "WhenOpened": "2024-09-14T17:23:19.081Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "GetProductByIdQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Application\\Products\\Queries\\GetProductById\\GetProductByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "WebShopProject.Application\\Products\\Queries\\GetProductById\\GetProductByIdQueryHandler.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Application\\Products\\Queries\\GetProductById\\GetProductByIdQueryHandler.cs",
+              "RelativeToolTip": "WebShopProject.Application\\Products\\Queries\\GetProductById\\GetProductByIdQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T17:23:43.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetProductsByCategoryQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Application\\Products\\Queries\\GetProductsByCategory\\GetProductsByCategoryQueryHandler.cs",
+              "RelativeDocumentMoniker": "WebShopProject.Application\\Products\\Queries\\GetProductsByCategory\\GetProductsByCategoryQueryHandler.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Application\\Products\\Queries\\GetProductsByCategory\\GetProductsByCategoryQueryHandler.cs",
+              "RelativeToolTip": "WebShopProject.Application\\Products\\Queries\\GetProductsByCategory\\GetProductsByCategoryQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T18:30:31.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetProductsByGenderQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Application\\Products\\Queries\\GetProductsByGender\\GetProductsByGenderQueryHandler.cs",
+              "RelativeDocumentMoniker": "WebShopProject.Application\\Products\\Queries\\GetProductsByGender\\GetProductsByGenderQueryHandler.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Application\\Products\\Queries\\GetProductsByGender\\GetProductsByGenderQueryHandler.cs",
+              "RelativeToolTip": "WebShopProject.Application\\Products\\Queries\\GetProductsByGender\\GetProductsByGenderQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T18:24:21.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UpdateProductCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Application\\Products\\Commands\\UpdateProduct\\UpdateProductCommandHandler.cs",
+              "RelativeDocumentMoniker": "WebShopProject.Application\\Products\\Commands\\UpdateProduct\\UpdateProductCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Application\\Products\\Commands\\UpdateProduct\\UpdateProductCommandHandler.cs",
+              "RelativeToolTip": "WebShopProject.Application\\Products\\Commands\\UpdateProduct\\UpdateProductCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T18:40:09.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UpdateProductCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Application\\Products\\Commands\\UpdateProduct\\UpdateProductCommand.cs",
+              "RelativeDocumentMoniker": "WebShopProject.Application\\Products\\Commands\\UpdateProduct\\UpdateProductCommand.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Application\\Products\\Commands\\UpdateProduct\\UpdateProductCommand.cs",
+              "RelativeToolTip": "WebShopProject.Application\\Products\\Commands\\UpdateProduct\\UpdateProductCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T18:39:29.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Domain\\Entities\\Product.cs",
               "RelativeDocumentMoniker": "WebShopProject.Domain\\Entities\\Product.cs",
@@ -179,20 +280,282 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DeleteProductQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Application\\Products\\Commands\\DeleteProduct\\DeleteProductQueryHandler.cs",
+              "RelativeDocumentMoniker": "WebShopProject.Application\\Products\\Commands\\DeleteProduct\\DeleteProductQueryHandler.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Application\\Products\\Commands\\DeleteProduct\\DeleteProductQueryHandler.cs",
+              "RelativeToolTip": "WebShopProject.Application\\Products\\Commands\\DeleteProduct\\DeleteProductQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T18:35:06.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DeleteProductCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Application\\Products\\Commands\\DeleteProduct\\DeleteProductCommand.cs",
+              "RelativeDocumentMoniker": "WebShopProject.Application\\Products\\Commands\\DeleteProduct\\DeleteProductCommand.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Application\\Products\\Commands\\DeleteProduct\\DeleteProductCommand.cs",
+              "RelativeToolTip": "WebShopProject.Application\\Products\\Commands\\DeleteProduct\\DeleteProductCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T18:34:49.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.API\\Program.cs",
+              "RelativeDocumentMoniker": "WebShopProject.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.API\\Program.cs",
+              "RelativeToolTip": "WebShopProject.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T09:36:27.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GetAllProductsQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Application\\Products\\Queries\\GetAllProducts\\GetAllProductsQuery.cs",
+              "RelativeDocumentMoniker": "WebShopProject.Application\\Products\\Queries\\GetAllProducts\\GetAllProductsQuery.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Application\\Products\\Queries\\GetAllProducts\\GetAllProductsQuery.cs",
+              "RelativeToolTip": "WebShopProject.Application\\Products\\Queries\\GetAllProducts\\GetAllProductsQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T17:21:58.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GetAllProductsQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Application\\Products\\Queries\\GetAllProducts\\GetAllProductsQueryHandler.cs",
+              "RelativeDocumentMoniker": "WebShopProject.Application\\Products\\Queries\\GetAllProducts\\GetAllProductsQueryHandler.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Application\\Products\\Queries\\GetAllProducts\\GetAllProductsQueryHandler.cs",
+              "RelativeToolTip": "WebShopProject.Application\\Products\\Queries\\GetAllProducts\\GetAllProductsQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T18:33:59.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CreateProductCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Application\\Products\\Commands\\CreateProduct\\CreateProductCommand.cs",
+              "RelativeDocumentMoniker": "WebShopProject.Application\\Products\\Commands\\CreateProduct\\CreateProductCommand.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Application\\Products\\Commands\\CreateProduct\\CreateProductCommand.cs",
+              "RelativeToolTip": "WebShopProject.Application\\Products\\Commands\\CreateProduct\\CreateProductCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T17:11:42.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CreateProductCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Application\\Products\\Commands\\CreateProduct\\CreateProductCommandHandler.cs",
+              "RelativeDocumentMoniker": "WebShopProject.Application\\Products\\Commands\\CreateProduct\\CreateProductCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Application\\Products\\Commands\\CreateProduct\\CreateProductCommandHandler.cs",
+              "RelativeToolTip": "WebShopProject.Application\\Products\\Commands\\CreateProduct\\CreateProductCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T17:12:55.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GetProductsByCategoryQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Application\\Products\\Queries\\GetProductsByCategory\\GetProductsByCategoryQuery.cs",
+              "RelativeDocumentMoniker": "WebShopProject.Application\\Products\\Queries\\GetProductsByCategory\\GetProductsByCategoryQuery.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Application\\Products\\Queries\\GetProductsByCategory\\GetProductsByCategoryQuery.cs",
+              "RelativeToolTip": "WebShopProject.Application\\Products\\Queries\\GetProductsByCategory\\GetProductsByCategoryQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T18:30:25.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GetProductsByGenderQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Application\\Products\\Queries\\GetProductsByGender\\GetProductsByGenderQuery.cs",
+              "RelativeDocumentMoniker": "WebShopProject.Application\\Products\\Queries\\GetProductsByGender\\GetProductsByGenderQuery.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Application\\Products\\Queries\\GetProductsByGender\\GetProductsByGenderQuery.cs",
+              "RelativeToolTip": "WebShopProject.Application\\Products\\Queries\\GetProductsByGender\\GetProductsByGenderQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T18:24:08.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IProductsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Domain\\Repositories\\IProductsRepository.cs",
+              "RelativeDocumentMoniker": "WebShopProject.Domain\\Repositories\\IProductsRepository.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Domain\\Repositories\\IProductsRepository.cs",
+              "RelativeToolTip": "WebShopProject.Domain\\Repositories\\IProductsRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T16:23:25.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProductsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Infrastructure\\Repositories\\ProductsRepository.cs",
+              "RelativeDocumentMoniker": "WebShopProject.Infrastructure\\Repositories\\ProductsRepository.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Infrastructure\\Repositories\\ProductsRepository.cs",
+              "RelativeToolTip": "WebShopProject.Infrastructure\\Repositories\\ProductsRepository.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAiwDIAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T16:21:23.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ServiceCollectionExtension.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Infrastructure\\Extension\\ServiceCollectionExtension.cs",
+              "RelativeDocumentMoniker": "WebShopProject.Infrastructure\\Extension\\ServiceCollectionExtension.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Infrastructure\\Extension\\ServiceCollectionExtension.cs",
+              "RelativeToolTip": "WebShopProject.Infrastructure\\Extension\\ServiceCollectionExtension.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T09:34:23.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Application\\Products\\Dto\\ProductDto.cs",
+              "RelativeDocumentMoniker": "WebShopProject.Application\\Products\\Dto\\ProductDto.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Application\\Products\\Dto\\ProductDto.cs",
+              "RelativeToolTip": "WebShopProject.Application\\Products\\Dto\\ProductDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T17:07:31.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ProductProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Application\\Products\\Dto\\ProductProfile.cs",
+              "RelativeDocumentMoniker": "WebShopProject.Application\\Products\\Dto\\ProductProfile.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Application\\Products\\Dto\\ProductProfile.cs",
+              "RelativeToolTip": "WebShopProject.Application\\Products\\Dto\\ProductProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T17:08:56.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ServiceCollectionExtension.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Application\\Extensions\\ServiceCollectionExtension.cs",
+              "RelativeDocumentMoniker": "WebShopProject.Application\\Extensions\\ServiceCollectionExtension.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Application\\Extensions\\ServiceCollectionExtension.cs",
+              "RelativeToolTip": "WebShopProject.Application\\Extensions\\ServiceCollectionExtension.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T16:35:10.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "WebShopProject.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Infrastructure\\WebShopProject.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "WebShopProject.Infrastructure\\WebShopProject.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Infrastructure\\WebShopProject.Infrastructure.csproj",
+              "RelativeToolTip": "WebShopProject.Infrastructure\\WebShopProject.Infrastructure.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-14T08:37:33.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Address.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Domain\\Entities\\Address.cs",
+              "RelativeDocumentMoniker": "WebShopProject.Domain\\Entities\\Address.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Domain\\Entities\\Address.cs",
+              "RelativeToolTip": "WebShopProject.Domain\\Entities\\Address.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T12:44:36.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "WebShopProject.API.csproj",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.API\\WebShopProject.API.csproj",
               "RelativeDocumentMoniker": "WebShopProject.API\\WebShopProject.API.csproj",
               "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.API\\WebShopProject.API.csproj",
               "RelativeToolTip": "WebShopProject.API\\WebShopProject.API.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-13T09:30:44.98Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T09:30:44.98Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 27,
+              "Title": "ProjectDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Infrastructure\\Database\\ProjectDbContext.cs",
+              "RelativeDocumentMoniker": "WebShopProject.Infrastructure\\Database\\ProjectDbContext.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Infrastructure\\Database\\ProjectDbContext.cs",
+              "RelativeToolTip": "WebShopProject.Infrastructure\\Database\\ProjectDbContext.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAABQwCoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T08:40:08.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DataSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Infrastructure\\DataSeeder\\DataSeeder.cs",
+              "RelativeDocumentMoniker": "WebShopProject.Infrastructure\\DataSeeder\\DataSeeder.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Infrastructure\\DataSeeder\\DataSeeder.cs",
+              "RelativeToolTip": "WebShopProject.Infrastructure\\DataSeeder\\DataSeeder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T11:06:21.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "WebShopProject.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "WebShopProject.Domain\\Entities\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T12:42:19.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Domain\\Entities\\Admin.cs",
+              "RelativeDocumentMoniker": "WebShopProject.Domain\\Entities\\Admin.cs",
+              "ToolTip": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Domain\\Entities\\Admin.cs",
+              "RelativeToolTip": "WebShopProject.Domain\\Entities\\Admin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T12:40:11.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Domain\\Entities\\Order.cs",
               "RelativeDocumentMoniker": "WebShopProject.Domain\\Entities\\Order.cs",
@@ -200,12 +563,11 @@
               "RelativeToolTip": "WebShopProject.Domain\\Entities\\Order.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T12:46:08.346Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T12:46:08.346Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 30,
               "Title": "OrderItem.cs",
               "DocumentMoniker": "C:\\Users\\Rogan-LT\\Desktop\\projekat\\WebShopProject\\backend\\WebShopProject.Domain\\Entities\\OrderItem.cs",
               "RelativeDocumentMoniker": "WebShopProject.Domain\\Entities\\OrderItem.cs",
@@ -213,8 +575,7 @@
               "RelativeToolTip": "WebShopProject.Domain\\Entities\\OrderItem.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T12:49:24.004Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T12:49:24.004Z"
             }
           ]
         }

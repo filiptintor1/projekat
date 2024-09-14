@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using WebShop.Domain.Entities;
+using WebShop.Domain.Repositories;
+using WebShop.Infrastructure.Repositories;
 using WebShop.Infrastructure.Seeders;
 using WebShopProject.Infrastructure.Database;
 
@@ -25,6 +27,8 @@ public static class ServiceCollectionExtension
         .EnableSensitiveDataLogging());
 
         services.AddScoped<IDataSeeder, DataSeeder>();
+
+        services.AddScoped<IProductsRepository, ProductsRepository>();
     }
 
 }
