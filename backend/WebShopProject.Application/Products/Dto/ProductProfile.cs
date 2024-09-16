@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WebShopProject.Application.Products.Commands.CreateProduct;
+using WebShopProject.Application.Products.Commands.UpdateProduct;
 using WebShopProject.Domain.Entities;
 
 namespace WebShopProject.Application.Products.Dto
