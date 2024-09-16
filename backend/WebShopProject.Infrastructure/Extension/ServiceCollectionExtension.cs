@@ -10,7 +10,9 @@ using WebShop.Domain.Entities;
 using WebShop.Domain.Repositories;
 using WebShop.Infrastructure.Repositories;
 using WebShop.Infrastructure.Seeders;
+using WebShopProject.Domain.Repositories;
 using WebShopProject.Infrastructure.Database;
+using WebShopProject.Infrastructure.Repositories;
 
 
 namespace WebShopProject.Infrastructure.Extension;
@@ -29,6 +31,15 @@ public static class ServiceCollectionExtension
         services.AddScoped<IDataSeeder, DataSeeder>();
 
         services.AddScoped<IProductsRepository, ProductsRepository>();
+        services.AddScoped<IUsersRepository, UsersRepository>();
+        services.AddScoped<IAdminsRepository, AdminsRepository>();
+        services.AddScoped<IOrdersRepository, OrdersRepository>();
+        services.AddScoped<IOrderItemsRepository, OrderItemsRepository>();
+
+
+
+
+
     }
 
 }

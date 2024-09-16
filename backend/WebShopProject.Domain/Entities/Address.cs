@@ -5,7 +5,7 @@ namespace WebShop.Domain.Entities
     {
         public string? City { get; set; }
 
-        public string? StreetAndNumber { get; set; }
+        public string? Street { get; set; }
 
         public string? PostalCode { get; set; }
     }
