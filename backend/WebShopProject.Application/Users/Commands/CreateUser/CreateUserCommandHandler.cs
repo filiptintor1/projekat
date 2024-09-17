@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using WebShop.Domain.Entities;
 using WebShop.Domain.Exceptions;
+using WebShopProject.Domain.Exceptions;
 using WebShopProject.Domain.Repositories;
 
 namespace WebShopProject.Application.Users.Commands.CreateUser
@@ -27,7 +28,7 @@ namespace WebShopProject.Application.Users.Commands.CreateUser
             }
             else
             {
-                throw new NotFoundException(nameof(User), request.Username.ToString());
+                throw new UserAlreadyExistsException(normalizedUsername);
             }
 
         }

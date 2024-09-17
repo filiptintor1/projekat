@@ -5,6 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using WebShop.Domain.Entities;
+using WebShopProject.Application.Admins.Commands.CreateAdmin;
+using WebShopProject.Application.Admins.Commands.UpdateAdmin;
 
 namespace WebShopProject.Application.Admins.Dto
 {

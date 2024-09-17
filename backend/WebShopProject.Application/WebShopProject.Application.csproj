@@ -16,9 +16,4 @@
     <ProjectReference Include="..\WebShopProject.Domain\WebShopProject.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="OrderItems\" />
-    <Folder Include="Orders\" />
-  </ItemGroup>
-
 </Project>

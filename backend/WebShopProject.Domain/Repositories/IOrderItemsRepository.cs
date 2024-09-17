@@ -13,6 +13,9 @@ namespace WebShopProject.Domain.Repositories
         Task<IEnumerable<OrderItem>> GetAllOrderItems();
         Task SaveChanges();
         Task DeleteOrderItem(OrderItem oi);
-       
+        Task<IEnumerable<OrderItem>> GetOrderItemsByOrderId(Guid orderId);
+
+        Task<OrderItem?> GetOrderItemByOrderAndProduct(Guid orderId, Guid productId);
+
     }
 }

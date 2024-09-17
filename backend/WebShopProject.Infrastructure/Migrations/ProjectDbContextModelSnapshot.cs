@@ -210,7 +210,7 @@ namespace WebShopProject.Infrastructure.Migrations
                             b1.Property<string>("PostalCode")
                                 .HasColumnType("nvarchar(max)");
 
-                            b1.Property<string>("StreetAndNumber")
+                            b1.Property<string>("Street")
                                 .HasColumnType("nvarchar(max)");
 
                             b1.HasKey("UserId");

@@ -12,7 +12,6 @@ namespace WebShopProject.Application.Users.Commands.UpdateUser
         public Guid UserId { get; set; }
         public string Name { get; set; } = default!;
         public string Surname { get; set; } = default!;
-        public string Username { get; set; } = default!;
         public string? City { get; set; }
         public string? Street { get; set; }
         public string? PostalCode { get; set; }

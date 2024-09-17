@@ -74,7 +74,6 @@ namespace WebShopProject.API.Controllers
         public async Task<IActionResult> Delete(Guid productId)
         {
             await mediator.Send(new DeleteProductCommand(productId));
-
             return NoContent();
         }
 

@@ -15,10 +15,6 @@ builder.Services.AddApplication();
 
 builder.Services.AddInfrastructure(builder.Configuration);
 
-
-
-
-
 var app = builder.Build();
 
 var scope = app.Services.CreateScope();

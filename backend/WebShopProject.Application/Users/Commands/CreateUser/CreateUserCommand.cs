@@ -13,7 +13,6 @@ namespace WebShopProject.Application.Users.Commands.CreateUser
         public string Surname { get; set; } = default!;
         public string Username { get; set; } = default!;
         public string Password { get; set; } = default!;
-        public string Salt { get; set; } = default!;
         public string? City { get; set; }
         public string? Street { get; set; }
         public string? PostalCode { get; set; }

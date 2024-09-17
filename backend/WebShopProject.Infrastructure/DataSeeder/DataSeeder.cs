@@ -133,7 +133,7 @@ namespace WebShop.Infrastructure.Seeders
                 Address = new()
                 {
                     City = "Amsterdam",
-                    StreetAndNumber = "123 Street",
+                    Street = "123 Street",
                     PostalCode = "1234"
                 },
                 Contact = "123-456-7891234",
@@ -167,7 +167,7 @@ namespace WebShop.Infrastructure.Seeders
                 Address = new Address
                 {
                     City = "Novi Sad",
-                    StreetAndNumber = "456 Street",
+                    Street = "456 Street",
                     PostalCode = "98765"
                 },
                 Contact = "987-654-321",
