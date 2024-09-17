@@ -42,7 +42,8 @@ namespace WebShopProject.Infrastructure.Repositories
 
         public async Task<User?> GetUserByUsername(string username)
         {
-            return await dbContext.Users.FirstOrDefaultAsync(u => u.Username == username);
+            return await dbContext.Users
+         .FirstOrDefaultAsync(u => u.Username == username);
         }
 
         public async Task<User?> GetUserById(Guid userId)

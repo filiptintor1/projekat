@@ -11,27 +11,14 @@ namespace WebShopProject.Infrastructure.Database
 {
     internal class ProjectDbContext : DbContext
     {
-
         public ProjectDbContext(DbContextOptions<ProjectDbContext> options) : base(options)
         {
-
-
         }
-
         internal DbSet<User> Users { get; set; }
-
         internal DbSet<Admin> Admins { get; set; }
-
         internal DbSet<Order> Orders { get; set; }
-
         internal DbSet<Product> Products { get; set; }
-
         internal DbSet<OrderItem> OrderItems { get; set; }
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=WebShopProjectDb;Trusted_Connection=True;");
-        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

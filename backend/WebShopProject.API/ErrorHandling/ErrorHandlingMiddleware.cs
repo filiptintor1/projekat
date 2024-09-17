@@ -1,5 +1,6 @@
 ﻿
 using WebShop.Domain.Exceptions;
+using WebShopProject.Domain.Exceptions;
 
 namespace WebShop.API.ErrorHandling
 {
@@ -18,6 +19,12 @@ namespace WebShop.API.ErrorHandling
                 await context.Response.WriteAsync(notFound.Message);
                 logger.LogWarning(notFound.Message);
 
+            }
+            catch (UserAlreadyExistsException userAlreadyExists)
+            {
+                context.Response.StatusCode = StatusCodes.Status409Conflict; 
+                await context.Response.WriteAsync(userAlreadyExists.Message);
+                logger.LogWarning(userAlreadyExists.Message);
             }
             catch (Exception ex)
             {

@@ -36,10 +36,6 @@ public static class ServiceCollectionExtension
         services.AddScoped<IOrdersRepository, OrdersRepository>();
         services.AddScoped<IOrderItemsRepository, OrderItemsRepository>();
 
-
-
-
-
     }
 
 }

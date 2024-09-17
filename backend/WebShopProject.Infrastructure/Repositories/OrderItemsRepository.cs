@@ -31,6 +31,19 @@ namespace WebShopProject.Infrastructure.Repositories
             return items;
         }
 
+        public async Task<OrderItem?> GetOrderItemByOrderAndProduct(Guid orderId, Guid productId)
+        {
+            return await dbContext.OrderItems
+            .FirstOrDefaultAsync(oi => oi.OrderId == orderId && oi.ProductId == productId);
+        }
+
+        public async Task<IEnumerable<OrderItem>> GetOrderItemsByOrderId(Guid orderId)
+        {
+            return await dbContext.OrderItems
+                                 .Where(oi => oi.OrderId == orderId)
+                                 .ToListAsync();
+        }
+
         public async Task SaveChanges()
         {
            await dbContext.SaveChangesAsync();  
