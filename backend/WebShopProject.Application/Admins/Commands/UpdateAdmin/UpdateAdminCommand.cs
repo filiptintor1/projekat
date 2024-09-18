@@ -10,7 +10,6 @@ namespace WebShopProject.Application.Admins.Commands.UpdateAdmin
     public class UpdateAdminCommand : IRequest
     {
         public Guid AdminId { get; set; }
-        public string Username { get; set; } = default!;
         public string Name { get; set; } = default!;
         public string Surname { get; set; } = default!;
         public string Contact { get; set; } = default!;

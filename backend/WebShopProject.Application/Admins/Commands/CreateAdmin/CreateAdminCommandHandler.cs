@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using WebShop.Domain.Entities;
 using WebShop.Domain.Exceptions;
+using WebShopProject.Domain.Exceptions;
 using WebShopProject.Domain.Repositories;
 
 namespace WebShopProject.Application.Admins.Commands.CreateAdmin
@@ -26,7 +27,7 @@ namespace WebShopProject.Application.Admins.Commands.CreateAdmin
             }
             else
             {
-                throw new NotFoundException(nameof(Admin), request.Username.ToString());
+                throw new UserAlreadyExistsException(normalizedUsername);
             }
         }
     }

@@ -10,14 +10,12 @@ namespace WebShop.Domain.Repositories;
 
 public interface IProductsRepository
 {
-    Task<IEnumerable<Product>> GetAllProducts();
+    Task<(IEnumerable<Product>, int)> GetAllProducts(int pageSize, int pageNumber, string? searchPhrase, string? category, string? kind, string? sortBy, SortDirection sortDirection);
     Task<Product?> GetProductById(Guid productId);
-    Task<IEnumerable<Product>> GetProductsByGender(string gender);
+    Task<IEnumerable<Product>> GetProductsByKind(string kind);
     Task<IEnumerable<Product>> GetProductsByCategory(string category);
     Task<Guid> CreateProduct(Product p);
     Task DeleteProduct(Product p);
-
-   // Task<(IEnumerable<Product>, int)> GetAllMatchingAsync(int pageSize, int pageNumber, string? searchPhrase, string? category, string? gender, string? sortBy, SortDirection sortDirection);
     Task SaveChanges();
 
 

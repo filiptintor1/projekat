@@ -78,7 +78,7 @@ namespace WebShop.Infrastructure.Seeders
             {
                 new Admin
                 {
-                    AdminId = Guid.NewGuid(),
+                    AdminId = new Guid("1b2E4D8B-6F1D-4E5F-8F1F-2C3B4A6D7aaa"),
                     Username = "admin",
                     Password = hashedAdminPasswordAndSalt.Item1,
                     Salt = hashedAdminPasswordAndSalt.Item2,
@@ -94,25 +94,25 @@ namespace WebShop.Infrastructure.Seeders
             var productOne = new Product
             {
                 ProductId = productId1,
-                Name = "Product 1",
-                Description = "Description of product 1.",
-                Category = "CategoryOne",
-                Gender = "Male",
-                Price = 1111,
+                Name = "Zlatiborski Med",
+                Description = "Organski livdski med sa Zlatiborskih livada.",
+                Category = "Organski",
+                KindOfHoney = "Livadski",
+                Price = 1100,
                 Quantity = 111,
-                Image = "https://SOMEURL.jpg"
+                Image = "https://www.medino.rs/images/products/livadski-720.png"
             };
 
             var productTwo = new Product
             {
                 ProductId = productId2,
-                Name = "ProductTwo",
-                Description = "Product two decription.",
-                Category = "CategoryTwo",
-                Gender = "Female",
-                Price = 1234,
-                Quantity = 12,
-                Image = "https://SOMEURL.jpg"
+                Name = "Krnjevac Med",
+                Description = "Najkvalitetniji teglirani bagremov med.",
+                Category = "Teglirani",
+                KindOfHoney = "Bagremov",
+                Price = 1200,
+                Quantity = 122,
+                Image = "https://www.medino.rs/images/products/bagremov-720.png"
             };
 
             return new List<Product> { productOne, productTwo };
@@ -125,9 +125,9 @@ namespace WebShop.Infrastructure.Seeders
 
             {
                 UserId = userId1,
-                Name = "User",
-                Surname = "One",
-                Username = "userone",
+                Name = "Nikola",
+                Surname = "Nikolic",
+                Username = "nikola",
                 Password = hashedPasswordAndSalt2.Item1,
                 Salt = hashedPasswordAndSalt2.Item2,
                 Address = new()
@@ -159,9 +159,9 @@ namespace WebShop.Infrastructure.Seeders
                     }
             },new (){
                 UserId = userId2,
-                Name = "User",
-                Surname = "Two",
-                Username = "usertwo",
+                Name = "Marko",
+                Surname = "Markovic",
+                Username = "marko",
                 Password = hashedPasswordAndSalt.Item1,
                 Salt = hashedPasswordAndSalt.Item2,
                 Address = new Address
@@ -185,7 +185,7 @@ namespace WebShop.Infrastructure.Seeders
                                     {
                                         ProductId = productId2,
                                         OrderId = orderId2,
-                                        Quantity = 1, // Example quantity
+                                        Quantity = 3, 
 
                                     }
                             }

@@ -37,16 +37,15 @@ namespace WebShopProject.API.Controllers
         {
 
             Guid productId = await mediator.Send(command);
-            return CreatedAtAction(nameof(GetById), new { productId }, null);
+            return CreatedAtAction(nameof(GetById), new { id = productId }, null);
         }
 
-        [HttpGet("gender/{gender}")]
+        [HttpGet("kind/{kind}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        [Authorize]
-        public async Task<ActionResult<IEnumerable<ProductDto>>> GetByGender(string gender)
+        public async Task<ActionResult<IEnumerable<ProductDto>>> GetByKind(string kind)
         {
-            var products = await mediator.Send(new GetProductsByGenderQuery(gender));
+            var products = await mediator.Send(new GetProductsByKindQuery(kind));
             if (products == null || !products.Any())
             {
                 return NotFound();
@@ -57,7 +56,6 @@ namespace WebShopProject.API.Controllers
         [HttpGet("category/{category}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        [Authorize]
         public async Task<ActionResult<IEnumerable<ProductDto>>> GetByCategory(string category)
         {
             var products = await mediator.Send(new GetProductsByCategoryQuery(category));
@@ -71,7 +69,7 @@ namespace WebShopProject.API.Controllers
         [HttpDelete("{productId}")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public async Task<IActionResult> Delete(Guid productId)
+        public async Task<IActionResult> DeleteProduct(Guid productId)
         {
             await mediator.Send(new DeleteProductCommand(productId));
             return NoContent();
@@ -80,7 +78,7 @@ namespace WebShopProject.API.Controllers
         [HttpPatch("{productId}")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public async Task<IActionResult> Update(Guid productId, UpdateProductCommand command)
+        public async Task<IActionResult> UpdateProduct(Guid productId, UpdateProductCommand command)
         {
             command.ProductId = productId;
             await mediator.Send(command);
