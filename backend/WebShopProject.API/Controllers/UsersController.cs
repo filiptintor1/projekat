@@ -20,6 +20,7 @@ namespace WebShopProject.API.Controllers
 
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK)]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult<IEnumerable<OrderDto>>> GetAllUsers()
         {
             var users = await mediator.Send(new GetAllUsersQuery());
@@ -68,6 +69,7 @@ namespace WebShopProject.API.Controllers
         [HttpDelete("{userId}")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeleteUser(Guid userId)
         {
             await mediator.Send(new DeleteUserCommand(userId));

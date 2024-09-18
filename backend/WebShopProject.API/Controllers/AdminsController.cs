@@ -14,6 +14,7 @@ namespace WebShopProject.API.Controllers
 {
     [ApiController]
     [Route("/admins")]
+    [Authorize(Roles = "Admin")]
     public class AdminsController(IMediator mediator): ControllerBase
     {
        

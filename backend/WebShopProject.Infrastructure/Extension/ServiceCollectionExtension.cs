@@ -10,7 +10,9 @@ using WebShop.Domain.Entities;
 using WebShop.Domain.Repositories;
 using WebShop.Infrastructure.Repositories;
 using WebShop.Infrastructure.Seeders;
+using WebShopProject.Domain.Authorization;
 using WebShopProject.Domain.Repositories;
+using WebShopProject.Infrastructure.Authorization;
 using WebShopProject.Infrastructure.Database;
 using WebShopProject.Infrastructure.Repositories;
 
@@ -35,6 +37,7 @@ public static class ServiceCollectionExtension
         services.AddScoped<IAdminsRepository, AdminsRepository>();
         services.AddScoped<IOrdersRepository, OrdersRepository>();
         services.AddScoped<IOrderItemsRepository, OrderItemsRepository>();
+        services.AddScoped<IAuthorizationHelper,AuthorizationHelper>();
 
     }
 
