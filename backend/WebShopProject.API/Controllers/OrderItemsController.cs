@@ -4,7 +4,7 @@ using WebShopProject.Application.OrderItems.Commands.CreateOrderItemCommand;
 using WebShopProject.Application.OrderItems.Commands.DeleteOrderItemCommand;
 using WebShopProject.Application.OrderItems.Commands.UpdateOrderItemCommand;
 using WebShopProject.Application.OrderItems.Dto;
-using WebShopProject.Application.OrderItems.Queries.GetOrderItemByOrderAndProduct;
+using WebShopProject.Application.OrderItems.Queries.GetOrderItemsByOrderAndProduct;
 using WebShopProject.Application.OrderItems.Queries.GetOrderItemsByOrderId;
 
 namespace WebShopProject.API.Controllers
@@ -35,7 +35,7 @@ namespace WebShopProject.API.Controllers
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<IActionResult> GetOrderItemByOrderAndProduct(Guid orderId, Guid productId)
         {
-            var query = new GetOrderItemByOrderAndProductQuery(orderId, productId);
+            var query = new GetOrderItemsByOrderAndProductQuery(orderId, productId);
             var orderItem = await mediator.Send(query);
 
             if (orderItem == null)
@@ -50,13 +50,13 @@ namespace WebShopProject.API.Controllers
         public async Task<IActionResult> CreateOrderItem(CreateOrderItemCommand command)
         {
             await mediator.Send(command);
-            return CreatedAtAction(nameof(OrderItemDto), new { command.OrderId, command.ProductId }, null);
+            return Ok(command);
         }
 
-        [HttpDelete]
+        [HttpDelete("{orderId}/{productId}")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public async Task<IActionResult> DeleteOrderItem([FromQuery] Guid orderId, [FromQuery] Guid productId)
+        public async Task<IActionResult> DeleteOrderItem(Guid orderId,  Guid productId)
         {
             await mediator.Send(new DeleteOrderItemCommand(orderId, productId));
 

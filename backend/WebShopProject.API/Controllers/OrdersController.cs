@@ -49,7 +49,7 @@ namespace WebShopProject.API.Controllers
         public async Task<IActionResult> CreateOrder([FromBody] CreateOrderCommand command)
         {
             Guid orderId = await mediator.Send(command);
-            return CreatedAtAction(nameof(GetOrderById), new { orderId }, null);
+            return CreatedAtAction(nameof(GetOrderById), new { id = orderId }, null);
         }
 
         [HttpGet("{id}")]

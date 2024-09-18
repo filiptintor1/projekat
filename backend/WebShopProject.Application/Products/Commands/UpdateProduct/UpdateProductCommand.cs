@@ -15,7 +15,7 @@ namespace WebShopProject.Application.Products.Commands.UpdateProduct
         public string Category { get; set; } = default!;
         public int Quantity { get; set; }
         public string? Image { get; set; }
-        public string Gender { get; set; } = default!;
+        public string KindOfHoney { get; set; } = default!;
         public decimal Price { get; set; }
     }
 }

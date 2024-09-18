@@ -12,11 +12,11 @@ using WebShopProject.Domain.Entities;
 
 namespace WebShopProject.Application.Products.Queries.GetProductsByCategory
 {
-    internal class GetProductsByGenderQueryHandler(IMapper mapper, IProductsRepository productsRepository) : IRequestHandler<GetProductsByGenderQuery, IEnumerable<ProductDto>>
+    internal class GetProductsByKindQueryHandler(IMapper mapper, IProductsRepository productsRepository) : IRequestHandler<GetProductsByKindQuery, IEnumerable<ProductDto>>
     {
-        public async Task<IEnumerable<ProductDto>> Handle(GetProductsByGenderQuery request, CancellationToken cancellationToken)
+        public async Task<IEnumerable<ProductDto>> Handle(GetProductsByKindQuery request, CancellationToken cancellationToken)
         {
-            var products = await productsRepository.GetProductsByGender(request.Gender)
+            var products = await productsRepository.GetProductsByKind(request.Gender)
                 ?? throw new NotFoundException(nameof(Product), request.Gender.ToString());
 
             var productsDtos = mapper.Map<IEnumerable<ProductDto>>(products);

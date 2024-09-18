@@ -14,15 +14,15 @@ namespace WebShopProject.API.Controllers
 {
     [ApiController]
     [Route("/admins")]
-    public class AdminsRepository(IMediator mediator): ControllerBase
+    public class AdminsController(IMediator mediator): ControllerBase
     {
        
 
         [HttpPost]
-        public async Task<IActionResult> Create([FromBody] CreateAdminCommand command)
+        public async Task<IActionResult> CreateAdmin([FromBody] CreateAdminCommand command)
         {
             var adminId = await mediator.Send(command);
-            return CreatedAtAction(nameof(GetById), new { adminId }, null);
+            return CreatedAtAction(nameof(GetById), new { id = adminId }, null);
         }
 
         [HttpDelete("{id}")]
@@ -43,10 +43,9 @@ namespace WebShopProject.API.Controllers
         }
 
         [HttpGet("username/{username}")]
-        [Authorize]
-        public async Task<ActionResult<UserDto>> GetByUsername(string email)
+        public async Task<ActionResult<UserDto>> GetByUsername(string username)
         {
-            var admin = await mediator.Send(new GetAdminByUsernameQuery(email));
+            var admin = await mediator.Send(new GetAdminByUsernameQuery(username));
             return Ok(admin);
         }
 

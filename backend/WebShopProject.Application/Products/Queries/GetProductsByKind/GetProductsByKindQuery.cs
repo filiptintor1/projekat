@@ -8,11 +8,11 @@ using WebShopProject.Application.Products.Dto;
 
 namespace WebShopProject.Application.Products.Queries.GetProductsByCategory
 {
-    public class GetProductsByGenderQuery : IRequest<IEnumerable<ProductDto>>
+    public class GetProductsByKindQuery : IRequest<IEnumerable<ProductDto>>
     {
         public string Gender { get; init; }
 
-        public GetProductsByGenderQuery(string gender)
+        public GetProductsByKindQuery(string gender)
         {
             Gender = gender;
         }
