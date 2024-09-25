@@ -17,7 +17,7 @@ namespace WebShopProject.API.Controllers
         [HttpGet("by-order/{orderId}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public async Task<IActionResult> GetOrderItemsByOrderId(Guid orderId)
+        public async Task<ActionResult<IEnumerable<OrderItemDto>>> GetOrderItemsByOrderId(Guid orderId)
         {
             var query = new GetOrderItemsByOrderIdQuery(orderId);
             var orderItems = await mediator.Send(query);

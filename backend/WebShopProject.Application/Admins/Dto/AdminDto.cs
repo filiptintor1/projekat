@@ -8,6 +8,7 @@ namespace WebShopProject.Application.Admins.Dto
 {
     public class AdminDto
     {
+        public Guid AdminId { get; set; }
         public string Username { get; set; } = default!;
         public string Name { get; set; } = default!;
         public string Surname { get; set; } = default!;

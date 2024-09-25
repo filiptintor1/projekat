@@ -18,7 +18,7 @@ namespace WebShopProject.Application.Products.Queries.GetAllProducts
 
         public string? SortBy { get; set; }
         public SortDirection SortDirection { get; set; }
-        public int PageSize { get; set; }
-        public int PageNumber { get; set; }
+        public int PageSize { get; set; } = 10;
+        public int PageNumber { get; set; } = 1;
     }
 }

@@ -31,7 +31,7 @@ namespace WebShopProject.API.Controllers
         [HttpPost("{orderId}")]
         public async Task<ActionResult<string>> Create(Guid orderId)
         {
-            var domain = "http://localhost:4242";
+            var domain = "http://localhost:3000";
 
             var order = await mediator.Send(new GetOrderByIdQuery(orderId));
             Console.WriteLine(order);
@@ -68,8 +68,8 @@ namespace WebShopProject.API.Controllers
             {
                 LineItems = lineItems,
                 Mode = "payment",
-                SuccessUrl = "http://localhost:4200/checkout/success",
-                CancelUrl = "http://localhost:4200/checkout/fail",
+                SuccessUrl = "http://localhost:3000/checkout/success",
+                CancelUrl = "http://localhost:3000/checkout/fail",
                 PaymentIntentData = new SessionPaymentIntentDataOptions
                 {
                     Metadata = new Dictionary<string, string>
@@ -84,7 +84,7 @@ namespace WebShopProject.API.Controllers
 
             var response = session.Id;
 
-            return Ok(response);
+            return Ok(new { sessionId = response });
         }
 
         [HttpPost("webhook")]

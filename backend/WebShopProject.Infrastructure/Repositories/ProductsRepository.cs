@@ -72,7 +72,9 @@ namespace WebShop.Infrastructure.Repositories
 
         public async Task<IEnumerable<Product>> GetProductsByCategory(string category)
         {
-            var p = await dbContext.Products.Where(x => x.Category == category).ToListAsync();
+            var p = await dbContext.Products
+            .Where(x => x.Category == category)
+            .ToListAsync();
             return p;
         }
 
@@ -81,7 +83,6 @@ namespace WebShop.Infrastructure.Repositories
             var products = await dbContext.Products
            .Where(u => u.KindOfHoney == kind)
            .ToListAsync();
-
             return products;
         }
 

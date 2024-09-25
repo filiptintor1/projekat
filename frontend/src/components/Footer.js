@@ -11,7 +11,7 @@ import { FaTiktok } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className='bg-orange-300'>
         <div className='container mx-auto p-4 flex md:justify-between md:items-center justify-center'>
 
             <div className='text-slate-600'>© 2024 HoneyStore. All rights reserved.</div>

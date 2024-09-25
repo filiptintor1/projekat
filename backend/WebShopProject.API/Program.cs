@@ -11,15 +11,14 @@ using WebShopProject.Domain.Entities;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
 builder.Services.AddControllers();
 
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowSpecificOrigin",
-        builder => builder.WithOrigins("http://localhost:4200")
-                          .AllowAnyMethod()
-                          .AllowAnyHeader());
+        builder => builder.WithOrigins("http://localhost:3000")
+            .AllowAnyMethod()
+            .AllowAnyHeader());
 });
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
@@ -40,28 +39,28 @@ var stripeInfo = builder.Configuration.GetSection("StripeSettings").Get<StripeIn
 StripeConfiguration.ApiKey = stripeInfo.SecretKey;
 
 builder.Services.AddScoped<ErrorHandlingMiddleware>();
-
 builder.Services.AddApplication();
-
 builder.Services.AddInfrastructure(builder.Configuration);
 
 var app = builder.Build();
 
+// Ensure the database is seeded
 var scope = app.Services.CreateScope();
 var seeder = scope.ServiceProvider.GetRequiredService<IDataSeeder>();
 await seeder.Seed();
 
 // Configure the HTTP request pipeline.
-
-app.UseMiddleware<ErrorHandlingMiddleware>();
-
 app.UseHttpsRedirection();
 
-app.UseAuthentication();
+// Add CORS middleware here
+app.UseCors("AllowSpecificOrigin");
 
+app.UseAuthentication();
 app.UseAuthorization();
 
+app.UseMiddleware<ErrorHandlingMiddleware>();
 
 app.MapControllers();
 
 app.Run();
+

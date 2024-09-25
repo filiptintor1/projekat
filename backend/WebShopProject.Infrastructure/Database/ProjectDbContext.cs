@@ -9,7 +9,7 @@ using WebShopProject.Domain.Entities;
 
 namespace WebShopProject.Infrastructure.Database
 {
-    internal class ProjectDbContext : DbContext
+    public class ProjectDbContext : DbContext
     {
         public ProjectDbContext(DbContextOptions<ProjectDbContext> options) : base(options)
         {

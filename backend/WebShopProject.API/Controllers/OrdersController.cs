@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using WebShopProject.Application.Orders.Commands.CreateOrderCommand;
 using WebShopProject.Application.Orders.Commands.DeleteOrderCommand;
@@ -15,6 +16,7 @@ namespace WebShopProject.API.Controllers
     {
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK)]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult<IEnumerable<OrderDto>>> GetAll()
         {
             var orders = await mediator.Send(new GetAllOrdersQuery());
@@ -49,7 +51,7 @@ namespace WebShopProject.API.Controllers
         public async Task<IActionResult> CreateOrder([FromBody] CreateOrderCommand command)
         {
             Guid orderId = await mediator.Send(command);
-            return CreatedAtAction(nameof(GetOrderById), new { id = orderId }, null);
+            return CreatedAtAction(nameof(GetOrderById), new { id = orderId }, new { orderId });
         }
 
         [HttpGet("{id}")]

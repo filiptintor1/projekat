@@ -69,6 +69,7 @@ namespace WebShopProject.API.Controllers
         [HttpDelete("{productId}")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeleteProduct(Guid productId)
         {
             await mediator.Send(new DeleteProductCommand(productId));
@@ -78,6 +79,7 @@ namespace WebShopProject.API.Controllers
         [HttpPatch("{productId}")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> UpdateProduct(Guid productId, UpdateProductCommand command)
         {
             command.ProductId = productId;
